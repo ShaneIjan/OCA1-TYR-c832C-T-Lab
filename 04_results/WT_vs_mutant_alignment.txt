@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Sep 2026 14:21:01
+# Commandline: needle
+#    -asequence /jetstream2/scratch/main/jobs/79885334/inputs/dataset_6177255a-47bc-4de0-a570-6bf20c95adf3.dat
+#    -bsequence /jetstream2/scratch/main/jobs/79885334/inputs/dataset_38219b5e-ca57-4eb5-8b35-48c51ed67a8e.dat
+#    -outfile /jetstream2/scratch/main/jobs/79885334/outputs/dataset_4d975fe2-fa18-492e-ab71-98e0ac6a666a.dat
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -brief yes
+#    -aformat3 srspair
+#    -auto
+# Align_format: srspair
+# Report_file: /jetstream2/scratch/main/jobs/79885334/outputs/dataset_4d975fe2-fa18-492e-ab71-98e0ac6a666a.dat
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 80-1669_1
+# 2: 80-1669_1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 530
+# Identity:     529/530 (99.8%)
+# Similarity:   529/530 (99.8%)
+# Gaps:           0/530 ( 0.0%)
+# Score: 2899.0
+# 
+#
+#=======================================
+
+80-1669_1          1 MLLAVLYCLLWSFQTSAGHFPRACVSSKNLMEKECCPPWSGDRSPCGQLS     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+80-1669_1          1 MLLAVLYCLLWSFQTSAGHFPRACVSSKNLMEKECCPPWSGDRSPCGQLS     50
+
+80-1669_1         51 GRGSCQNILLSNAPLGPQFPFTGVDDRESWPSVFYNRTCQCSGNFMGFNC    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+80-1669_1         51 GRGSCQNILLSNAPLGPQFPFTGVDDRESWPSVFYNRTCQCSGNFMGFNC    100
+
+80-1669_1        101 GNCKFGFWGPNCTERRLLVRRNIFDLSAPEKDKFFAYLTLAKHTISSDYV    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+80-1669_1        101 GNCKFGFWGPNCTERRLLVRRNIFDLSAPEKDKFFAYLTLAKHTISSDYV    150
+
+80-1669_1        151 IPIGTYGQMKNGSTPMFNDINIYDLFVWMHYYVSMDALLGGSEIWRDIDF    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+80-1669_1        151 IPIGTYGQMKNGSTPMFNDINIYDLFVWMHYYVSMDALLGGSEIWRDIDF    200
+
+80-1669_1        201 AHEAPAFLPWHRLFLLRWEQEIQKLTGDENFTIPYWDWRDAEKCDICTDE    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+80-1669_1        201 AHEAPAFLPWHRLFLLRWEQEIQKLTGDENFTIPYWDWRDAEKCDICTDE    250
+
+80-1669_1        251 YMGGQHPTNPNLLSPASFFSSWQIVCSRLEEYNSHQSLCNGTPEGPLRRN    300
+                     |||||||||||||||||||||||||||.||||||||||||||||||||||
+80-1669_1        251 YMGGQHPTNPNLLSPASFFSSWQIVCS*LEEYNSHQSLCNGTPEGPLRRN    300
+
+80-1669_1        301 PGNHDKSRTPRLPSSADVEFCLSLTQYESGSMDKAANFSFRNTLEGFASP    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+80-1669_1        301 PGNHDKSRTPRLPSSADVEFCLSLTQYESGSMDKAANFSFRNTLEGFASP    350
+
+80-1669_1        351 LTGIADASQSSMHNALHIYMNGTMSQVQGSANDPIFLLHHAFVDSIFEQW    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+80-1669_1        351 LTGIADASQSSMHNALHIYMNGTMSQVQGSANDPIFLLHHAFVDSIFEQW    400
+
+80-1669_1        401 LRRHRPLQEVYPEANAPIGHNRESYMVPFIPLYRNGDFFISSKDLGYDYS    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+80-1669_1        401 LRRHRPLQEVYPEANAPIGHNRESYMVPFIPLYRNGDFFISSKDLGYDYS    450
+
+80-1669_1        451 YLQDSDPDSFQDYIKSYLEQASRIWSWLLGAAMVGAVLTALLAGLVSLLC    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+80-1669_1        451 YLQDSDPDSFQDYIKSYLEQASRIWSWLLGAAMVGAVLTALLAGLVSLLC    500
+
+80-1669_1        501 RHKRKQLPEEKQPLLMEKEDYHSLYQSHL*    530
+                     ||||||||||||||||||||||||||||| 
+80-1669_1        501 RHKRKQLPEEKQPLLMEKEDYHSLYQSHL*    530
+
+
+#---------------------------------------
+#---------------------------------------
