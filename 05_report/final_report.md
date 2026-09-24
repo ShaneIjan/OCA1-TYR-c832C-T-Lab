@@ -125,6 +125,12 @@ The *TYR* c.832C>T mutation changes a single cytosine (C) to thymine (T) at nucl
 
 ---
 
+## Hypothesis
+
+The documented *TYR* c.832C>T mutation was predicted to affect one nucleotide and produce a nonsense mutation without changing the reading frame. The substitution was expected to convert the normal arginine codon at amino acid position 278 into a premature stop codon, resulting in a shortened TYR protein. The predicted mutant protein was therefore expected to contain 277 amino acids instead of the normal 529 amino acids and to have impaired normal tyrosinase function.
+
+---
+
 ## Artificial Mutation Experiment
 
 To further examine how mutation size affects a coding sequence, an artificial three-nucleotide deletion was introduced into the wild-type *TYR* CDS. The artificial mutation was **c.4_6del**, removing the sequence **CTC**.
@@ -149,6 +155,18 @@ The artificial three-nucleotide deletion shortened the *TYR* coding sequence fro
 **Figure 4.** Comparison of the Wild-Type and Artificial Three-Nucleotide Deletion TYR Coding Sequences.  
 
 The figure shows the TYR coding sequences before and after the artificial three-nucleotide deletion. **a.)** The normal wild-type *TYR* coding sequence contains 1,590 nucleotides. **b.)** The artificial mutant contains a three-nucleotide deletion, c.4_6del, reducing the CDS to 1,587 nucleotides. Because three nucleotides were deleted, the downstream reading frame was maintained.
+
+---
+
+## Methods
+
+The normal *TYR* coding sequence was obtained from the NCBI RefSeq transcript **NM_000372.5**, using the coding region at nucleotides 80–1669, corresponding to the reference protein **NP_000363.1**. The wild-type CDS was uploaded to Galaxy and translated using EMBOSS Transeq to obtain the predicted wild-type protein sequence. The documented **c.832C>T** mutation was manually introduced into a copy of the wild-type CDS while preserving the original sequence. The mutant CDS was then translated using the same procedure, and the wild-type and mutant protein sequences were compared using EMBOSS Needle global sequence alignment. An artificial three-nucleotide deletion, **c.4_6del**, was also introduced into a separate copy of the wild-type CDS and translated to compare its predicted effect with the documented mutation.
+
+---
+
+## Results
+
+The wild-type *TYR* CDS contained **1,590 nucleotides** and produced a predicted **529-amino-acid** protein matching the reference protein NP_000363.1. Introduction of the documented **c.832C>T** mutation changed the codon **CGA to TGA**, producing the predicted **p.Arg278Ter** nonsense mutation. This introduced a premature stop at amino acid position 278, resulting in a predicted protein of **277 amino acids** without changing the reading frame. EMBOSS Needle identified the first difference between the computationally translated WT and mutant sequences at position 278. In comparison, the artificial **c.4_6del** mutation removed three nucleotides (CTC), maintained the reading frame, and produced a predicted **528-amino-acid** protein.
 
 ---
 
@@ -183,6 +201,12 @@ A premature stop codon can have a substantial effect because it may terminate tr
 Mutations can also affect protein function without greatly changing protein length. For example, a substitution affecting an important amino acid may alter protein activity even if the overall length remains unchanged. In addition, mutations outside the protein-coding sequence may contribute to disease by affecting gene regulation, transcription, RNA processing, or splicing without directly changing the encoded amino-acid sequence.
 
 Evidence from this computational analysis supports the sequence-level mechanism of the documented mutation: c.832C>T changed the codon from CGA to TGA, introduced a premature stop at position 278, and predicted a shortened TYR protein. Published evidence is still required to establish the biological effects of TYR variants on tyrosinase activity, melanin production, and the OCA1 phenotype. Previous research has identified pathogenic TYR mutations as an important cause of OCA1 (Chaki et al., 2005).
+
+---
+
+## Limitations
+
+This study was limited to computational analysis of the *TYR* coding sequence and its predicted protein products. The results can identify nucleotide changes, codon changes, premature stop codons, reading-frame effects, and predicted changes in protein sequence and length, but they do not directly demonstrate protein expression, folding, stability, localization, or enzymatic activity. In addition, the artificial mutation was created for comparison and does not represent experimental evidence of its biological effect. Therefore, laboratory experiments and published experimental evidence would be needed to confirm the actual effects of these mutations on tyrosinase function and melanin production.
 
 ---
 
